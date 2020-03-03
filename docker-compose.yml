@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  ac_python:
+    build: .
+    image: mollinaca/personal:ac_python
+    restart: 'no'
+    container_name: 'ac_python'
+    working_dir: '/root/vm1_shared/ac/'
+    tty: true
+    volumes:
+      - ./code:/root/code
