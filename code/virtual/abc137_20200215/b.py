@@ -3,6 +3,5 @@
 k, x = map(int, input().split())
 ans=[]
 for i in range(x-(k-1), x+(k-1)+1):
-#    print (i)
     ans.append(i)
 print(' '.join(map(str, ans)))
