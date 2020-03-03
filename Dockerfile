@@ -8,7 +8,7 @@ ENV HOSTNAME ac_python
 
 RUN apt-get update -y
 RUN apt-get install python3-numpy -y
-RUN	apt-get install python3-scipy -y
+RUN apt-get install python3-scipy -y
 RUN apt-get install python-scikits-learn -y
 #RUN pip install --upgrade pip
 #RUN pip install --upgrade setuptools
