@@ -3,12 +3,12 @@
 import collections
 n = int(input())
 a = list(map(int, input().split()))
+l = [0]*n
+ans = 0
+
+for k,v in collections.Counter(a).items():
+    l[k-1] = v
+    ans += v*(v-1)//2
 
 for i in range(n):
-    total = 0
-    x = a.copy()
-    del x[i]
-    x = collections.Counter(x)
-    for v in x.values():
-        total += v*(v-1)//2
-    print (total)
+    print (ans-l[a[i]-1]+1)
