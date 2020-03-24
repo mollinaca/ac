@@ -3,9 +3,10 @@
 n = int(input())
 x = list(map(int,input().split()))
 y = sorted(x)
-lx = len(x)
-lxi = (lx-1)//2
+lidx = n//2
+sidx = lidx-1
 for v in x:
-    z = y.copy()
-    z.remove(v)
-    print (z[lxi])
+    if v <= y[sidx]:
+        print (y[lidx])
+    else:
+        print (y[sidx])
