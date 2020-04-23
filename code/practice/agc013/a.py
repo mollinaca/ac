@@ -1,38 +1,26 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 n = int(input())
-A = list(map(int,input().split()))
+A = list(map(int, input().split()))
 
-state = None # inc,dec,same
+inc = None
 c = 0
-
-for i in range(1,len(A)):
-    if A[i] > A[i-1]:
-        if state == None:
-            state = "inc"
-        elif state == "inc":
+ 
+for i in range(n-1):
+    if inc == None:
+        if A[i] == A[i+1]:
             pass
-        elif state == "dec":
-            c += 1
-            state = None
-        elif state == "same":
-            state = "inc"
+        elif A[i] < A[i+1]:
+            inc = True
         else:
-            pass
-
-    elif A[i] < A[i-1]:
-        if state == None:
-            state = "dec"
-        elif state == "dec":
-            pass
-        elif state == "inc":
+            inc = False
+    elif inc:
+        if A[i] > A[i+1]:
             c += 1
-            state = None
-        elif state == "same":
-            state = "dec"
-        else:
-            pass
+            inc = None
     else:
-        state = "same"
+        if A[i] < A[i+1]:
+            c += 1
+            inc = None
 
-print (c+1)
+print(c+1)
