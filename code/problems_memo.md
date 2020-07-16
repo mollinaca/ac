@@ -45,6 +45,7 @@ https://atcoder.jp/contests/arc061/tasks/arc061_a
 https://www.forcia.com/blog/001434.html  
 https://qiita.com/gh_takumi/items/a0b2f38e7ea53e73c1d5  
 
+https://atcoder.jp/contests/abc143/tasks/abc143_d  
 https://atcoder.jp/contests/abc146/tasks/abc146_c  
 
 ## bit全探索
@@ -67,6 +68,7 @@ https://qiita.com/drken/items/4a7869c5e304883f539b
 https://qiita.com/drken/items/a803d4fc4a727e02f7ba  
 https://atcoder.jp/contests/atc001/tasks/dfs_a  
 
+https://atcoder.jp/contests/abc042/tasks/arc058_a  
 https://atcoder.jp/contests/abc070/tasks/abc070_d  
 https://atcoder.jp/contests/abc138/tasks/abc138_d  
 https://atcoder.jp/contests/arc031/tasks/arc031_2  
