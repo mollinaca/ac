@@ -30,6 +30,10 @@ http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0211
 http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0516  
 http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2610  
 
+## データ構造でがんばる
+
+https://atcoder.jp/contests/abc026/tasks/abc026_c  
+
 ## 文字列操作
 
 https://atcoder.jp/contests/abc019/tasks/abc019_2  
