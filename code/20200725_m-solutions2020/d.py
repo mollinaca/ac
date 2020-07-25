@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 n = int(input())
 A = list(map(int,input().split()))
-l = []
 
 m = 1000
 k = 0
